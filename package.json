@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js -e ejs,js,html,css"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongoose": "^5.13.4",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "shortid": "^2.2.16"
   }
 }
